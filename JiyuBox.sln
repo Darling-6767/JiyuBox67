@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{706639EF-3F13-4E5A-9EC7-DEBBDD723905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiyuBox.Core", "src\JiyuBox.Core\JiyuBox.Core.csproj", "{88C1CB86-3FDE-413B-920F-8175ED97586E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiyuBox.App", "src\JiyuBox.App\JiyuBox.App.csproj", "{2C175142-B51F-4E13-A4E1-6DA62B5D324F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{93DB7F01-C173-456B-A21D-29D883F4AE41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiyuBox.Smoke", "tests\JiyuBox.Smoke\JiyuBox.Smoke.csproj", "{E0A72317-90EE-4539-A2A0-8CFDAA04B227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{ABCC576F-AC79-4CAC-9B2D-8C7A09A30E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakePeer", "tools\FakePeer\FakePeer.csproj", "{4FD4FE11-6B2F-4473-A2FD-A0D58CD52B0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88C1CB86-3FDE-413B-920F-8175ED97586E}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{88C1CB86-3FDE-413B-920F-8175ED97586E}.Debug|Any CPU.Build.0 = Debug|x64
+		{88C1CB86-3FDE-413B-920F-8175ED97586E}.Release|Any CPU.ActiveCfg = Release|x64
+		{88C1CB86-3FDE-413B-920F-8175ED97586E}.Release|Any CPU.Build.0 = Release|x64
+		{2C175142-B51F-4E13-A4E1-6DA62B5D324F}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{2C175142-B51F-4E13-A4E1-6DA62B5D324F}.Debug|Any CPU.Build.0 = Debug|x64
+		{2C175142-B51F-4E13-A4E1-6DA62B5D324F}.Release|Any CPU.ActiveCfg = Release|x64
+		{2C175142-B51F-4E13-A4E1-6DA62B5D324F}.Release|Any CPU.Build.0 = Release|x64
+		{E0A72317-90EE-4539-A2A0-8CFDAA04B227}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{E0A72317-90EE-4539-A2A0-8CFDAA04B227}.Debug|Any CPU.Build.0 = Debug|x64
+		{E0A72317-90EE-4539-A2A0-8CFDAA04B227}.Release|Any CPU.ActiveCfg = Release|x64
+		{E0A72317-90EE-4539-A2A0-8CFDAA04B227}.Release|Any CPU.Build.0 = Release|x64
+		{4FD4FE11-6B2F-4473-A2FD-A0D58CD52B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD4FE11-6B2F-4473-A2FD-A0D58CD52B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD4FE11-6B2F-4473-A2FD-A0D58CD52B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD4FE11-6B2F-4473-A2FD-A0D58CD52B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88C1CB86-3FDE-413B-920F-8175ED97586E} = {706639EF-3F13-4E5A-9EC7-DEBBDD723905}
+		{2C175142-B51F-4E13-A4E1-6DA62B5D324F} = {706639EF-3F13-4E5A-9EC7-DEBBDD723905}
+		{E0A72317-90EE-4539-A2A0-8CFDAA04B227} = {93DB7F01-C173-456B-A21D-29D883F4AE41}
+		{4FD4FE11-6B2F-4473-A2FD-A0D58CD52B0E} = {ABCC576F-AC79-4CAC-9B2D-8C7A09A30E6F}
+	EndGlobalSection
+EndGlobal
